@@ -4,7 +4,7 @@
 
     <groupId>com.neo</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -59,7 +59,6 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:OmkarKandale/pet-clinic.git</developerConnection>
-      <tag>pet-clinic-0.0.2</tag>
   </scm>
 
 </project>
