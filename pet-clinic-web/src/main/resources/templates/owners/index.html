@@ -5,7 +5,25 @@
     <title>List of Pet Owners</title>
 </head>
 <body>
+<!--/*@thymeleafVar id="owner" type="com.neo.petclinic.model.Owner"*/-->
 <h1 th:text="'List of Owners'">List of Owners...</h1>
+
+<table>
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>FirstName</td>
+            <td>LastName</td>
+        </tr>
+    </thead>
+    <tbody>
+    <tr th:each="owner : ${owners}">
+        <td th:text="${owner.id}"></td>
+        <td th:text="${owner.firstName}"></td>
+        <td th:text="${owner.lastName}"></td>
+    </tr>
+    </tbody>
+</table>
 
 </body>
 </html>
