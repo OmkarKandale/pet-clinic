@@ -3,7 +3,6 @@ package com.neo.petclinic.model;
 import java.util.Set;
 
 public class Vet extends Person {
-
     private Set<Speciality> specialities;
 
     public Set<Speciality> getSpecialities() {
@@ -13,5 +12,4 @@ public class Vet extends Person {
     public void setSpecialities(Set<Speciality> specialities) {
         this.specialities = specialities;
     }
-
 }

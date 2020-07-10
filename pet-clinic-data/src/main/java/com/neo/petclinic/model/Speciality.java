@@ -1,7 +1,6 @@
 package com.neo.petclinic.model;
 
 public class Speciality {
-
     private String description;
 
     public String getDescription() {
