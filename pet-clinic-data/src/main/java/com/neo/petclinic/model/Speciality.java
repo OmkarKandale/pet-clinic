@@ -1,6 +1,6 @@
 package com.neo.petclinic.model;
 
-public class Speciality extends BaseEntity {
+public class Speciality {
 
     private String description;
 
@@ -11,5 +11,4 @@ public class Speciality extends BaseEntity {
     public void setDescription(String description) {
         this.description = description;
     }
-
 }
